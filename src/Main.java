@@ -5,12 +5,15 @@ import java.time.LocalDateTime;
 public class Main {
 
 	public static void main(String[] args) throws ParseException, CloneNotSupportedException {
-		// TODO Auto-generated method stub
+
+		//  Cases for Bikram Calendar.
+
+
 		
 		// Get current date and time 
-		//BikramCalendar currentTime = BikramCalendar.now("Asia/Kathmandu");
-		//BikramCalendar bc2 = new BikramCalendar(28, 10,2081,14,54,0);
-		//bc2.cal();
+		BikramCalendar currentTime = BikramCalendar.now("Asia/Kathmandu");
+		BikramCalendar bc2 = new BikramCalendar(28, 10,2081,14,54,0);
+		bc2.cal();
 		
 		
 		/*
@@ -64,7 +67,6 @@ public class Main {
 		 * System.out.println(bc2.getDate()+" + 12 months = "+bc4.getDate());
 		 */
 		
-		 BikramCalendar bc2 = new BikramCalendar(28, 10,2081,14,54,0); 
 
 		// 5. Adding and subtracting months
 		/*
@@ -118,26 +120,25 @@ public class Main {
 		 */
 
 		//5: No of days completed for particular BS date.
-		BikramCalendar currentTime = BikramCalendar.now("Asia/Kathmandu");
 		//int elapsedDays=currentTime.getElapsedDaysOfCurrentYear();
 		//System.out.println("Given date has completed "+elapsedDays+ " days / "+ currentTime.totalDaysInYear());
 
 		//6. COnvert your BS date in AD
-		LocalDateTime currentTimeAD = currentTime.dateInAD();
-		System.out.println(currentTime.getDate() +" BS  =->  "+ currentTimeAD.toLocalDate()+" AD");
+		//LocalDateTime currentTimeAD = currentTime.dateInAD();
+		//System.out.println(currentTime.getDate() +" BS  =->  "+ currentTimeAD.toLocalDate()+" AD");
 		
 		
 
 		//7. COnvert your AD date in BS
-		LocalDate dateInAD = LocalDate.of(2025, 02, 21);
-		DateTimeModel myBSDate = new DateConverter().convertAdToBs(dateInAD);
-		System.out.println(dateInAD +" AD  =->  "+ myBSDate+" BS");
+		//LocalDate dateInAD = LocalDate.of(2025, 02, 21);
+		//DateTimeModel myBSDate = new DateConverter().convertAdToBs(dateInAD);
+		//System.out.println(dateInAD +" AD  =->  "+ myBSDate+" BS");
 		
 		
 		//8. To know if date1 comes after or before date2
-		BikramCalendar myTime = currentTime.plusMins(10);
-		System.out.println(myTime.isBefore(currentTime));
-		System.out.println(myTime.isAfter(currentTime));
+		//BikramCalendar myTime = currentTime.plusMins(10);
+		//System.out.println(myTime.isBefore(currentTime));
+		//System.out.println(myTime.isAfter(currentTime));
 
 
 		
