@@ -201,6 +201,7 @@ public class Constants {
         numberOfDaysInNepaliMonth.put(1967, new Integer[]{31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30});
         numberOfDaysInNepaliMonth.put(1968, new Integer[]{31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31});
         numberOfDaysInNepaliMonth.put(1969, new Integer[]{30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31});
+
         numberOfDaysInNepaliMonth.put(1970, new Integer[]{31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30});// 1970
         numberOfDaysInNepaliMonth.put(1971, new Integer[]{31, 31, 32, 31, 32, 30, 30, 29, 30, 29, 30, 30});// 1971
         numberOfDaysInNepaliMonth.put(1972, new Integer[]{31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31});// 1972
@@ -313,7 +314,7 @@ public class Constants {
         numberOfDaysInNepaliMonth.put(2079, new Integer[]{31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30});
         numberOfDaysInNepaliMonth.put(2080, new Integer[]{31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30});// 2080
         numberOfDaysInNepaliMonth.put(2081, new Integer[]{31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31});
-        numberOfDaysInNepaliMonth.put(2082, new Integer[]{31, 31, 32, 31, 31, 30, 30, 30, 29, 30, 30, 30});
+        numberOfDaysInNepaliMonth.put(2082, new Integer[]{31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30}); //2082
         numberOfDaysInNepaliMonth.put(2083, new Integer[]{31, 31, 32, 31, 31, 30, 30, 30, 29, 30, 30, 30});
         numberOfDaysInNepaliMonth.put(2084, new Integer[]{31, 31, 32, 31, 31, 30, 30, 30, 29, 30, 30, 30});
         numberOfDaysInNepaliMonth.put(2085, new Integer[]{31, 32, 31, 32, 30, 31, 30, 30, 29, 30, 30, 30});
@@ -332,7 +333,7 @@ public class Constants {
         numberOfDaysInNepaliMonth.put(2098, new Integer[]{31, 31, 32, 31, 31, 31, 29, 30, 29, 30, 29, 31});
         numberOfDaysInNepaliMonth.put(2099, new Integer[]{31, 31, 32, 31, 31, 31, 30, 29, 29, 30, 30, 30});
         numberOfDaysInNepaliMonth.put(2100, new Integer[]{31, 32, 31, 32, 30, 31, 30, 29, 30, 29, 30, 30});
-
+        // Source: Drik panchang (2101-2110)
         numberOfDaysInNepaliMonth.put(2101, new Integer[]{31, 31, 31, 32, 31, 31, 29, 30, 30, 29, 30, 30});
         numberOfDaysInNepaliMonth.put(2102, new Integer[]{31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30});
         numberOfDaysInNepaliMonth.put(2103, new Integer[]{31, 32, 31, 32, 31, 30, 30, 29, 30, 29, 30, 30});
@@ -343,7 +344,6 @@ public class Constants {
         numberOfDaysInNepaliMonth.put(2108, new Integer[]{31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31});
         numberOfDaysInNepaliMonth.put(2109, new Integer[]{31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30});
         numberOfDaysInNepaliMonth.put(2110, new Integer[]{31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30});
-
 
       
     }
